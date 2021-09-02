@@ -48,15 +48,15 @@ spring:
           predicates:
             - Path=/orders/** 
         - id: shipping
-          uri: http://user09-oshipping:8080
+          uri: http://user09-shipping:8080
           predicates:
             - Path=/shippings/** 
         - id: payment
-          uri: http://user09-opayment:8080
+          uri: http://user09-payment:8080
           predicates:
             - Path=/payments/** 
         - id: mypage
-          uri: http://user09-omypage:8080
+          uri: http://user09-mypage:8080
           predicates:
             - Path= /myPages/**
       globalcors:
